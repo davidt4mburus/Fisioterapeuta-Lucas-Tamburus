@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+body {
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    margin: -8px;
+    padding: 10px;
+    font-size: 125%;
+    background-color: rgb(15, 201, 86);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgb(5, 5, 5);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+a:hover {
+    border: 2px solid rgb(226, 230, 10);
+    border-radius: 100px;
+    color: rgb(226, 230, 10);
+    transition: 0.3s all;
+    background-color: rgb(226, 230, 10);
+    color: white;
+}
+
+.imagem {
+    position: absolute;
+    right: 0;
+    top: 58%;
+    transform: translateY(-50%);
+}
+
+.titulo {
+    font-size: 115%;
+    max-width: 40%;
+    margin-right: 10px;
+    letter-spacing: -0.5px;
+}
+
+h4, p {
+    line-height: 1.2; 
+    margin-bottom: 10px; 
+    font-family: "Nunito", sans-serif;
+}
+
+.name {
+    color: green;
+    margin-bottom: -25px;
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+input {
+    margin-top: 10px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px ;
+}
+
+form [type="text"] {
+    border-color: rgb(54, 218, 21);
+}
+
+form [type="email"] {
+    border-color: rgb(54, 218, 21);
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(64, 206, 119);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: green;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+.services {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 50px; 
+    margin-bottom: 4%;
+    border-radius: 10px;
+}
+
+.services h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+    color: green;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-family: 'Playfair Display', serif;
+    color: #2c3e50;
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-family: 'Nunito', sans-serif;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.contact {
+    margin-top: 50px;
+    padding: 3%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.contact h2 {
+    color: green;
+    font-size: 200%;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact p {
+    font-size: 120%;
+    margin: 10px 0;
+    color: #333;
+}
+
+.contact a {
+    color: #00bfff;
+    border-color: rgb(54, 218, 21);
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
